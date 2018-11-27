@@ -9,13 +9,21 @@
             type="com.zj.pedometer.MainActivity"/>
     </data>
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="0"
-        android:gravity="center"
-        android:textColor="@color/textColor"
-        android:textSize="18sp"
-        />
+        android:layout_height="match_parent">
+
+        <com.zj.pedometer.view.CircleBar
+            android:id="@+id/circle_bar"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:bgColor="@color/bg_white"
+            app:circleNormalColor="@color/colorPrimaryDark"
+            app:circleWidth="15dp"
+            app:textChangeSize="30"
+            app:textNormalSize="20"
+            />
+
+    </RelativeLayout>
 
 </layout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleBar">
+
+        <!--view背景色 -->
+        <attr name="bgColor" format="color"/>
+        <!--圆环默认色 -->
+        <attr name="circleNormalColor" format="color"/>
+        <!--圆环进度改变的颜色 -->
+        <attr name="circleChangeColor" format="color"/>
+        <!--圆环宽度-->
+        <attr name="circleWidth" format="dimension"/>
+
+        <!--默认字体颜色 -->
+        <attr name="textNormalColor" format="color"/>
+        <!--中间文字颜色 -->
+        <attr name="textChangeColor" format="color"/>
+        <!--默认字体大小 -->
+        <attr name="textNormalSize" format="integer"/>
+        <!--v中间文字大小-->
+        <attr name="textChangeSize" format="integer"/>
+
+
+    </declare-styleable>
+
+</resources>
